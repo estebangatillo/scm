@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T19:59:22+05:30"
-draft: false
+draft: true
 image: img/portfolio/ipad-air-2.jpg
 showonlyimage: false
 title: Name of the work 8

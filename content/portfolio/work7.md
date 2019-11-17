@@ -1,6 +1,6 @@
 ---
 date: "2016-11-05T19:57:40+05:30"
-draft: false
+draft: true
 image: img/portfolio/label-clothes.jpg
 showonlyimage: false
 title: Name of the work 7
