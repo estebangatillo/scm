@@ -3,8 +3,7 @@ date: "2016-11-05T19:50:47+05:30"
 draft: false
 image: ""
 showonlyimage: false
-title: Isopod assemblage in response to management techniques and environmental variables
-on Nantucket Island
+title: Isopod assemblage in response to management techniques and environmental variables on Nantucket Island
 weight: 4
 ---
 
