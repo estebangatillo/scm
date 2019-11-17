@@ -21,6 +21,7 @@ Research on the role of soil invertebrates is important in altered grassland eco
 
 A linear model was generated to predict pooled isopod assemblage across sites based on six predictor variables (dry litter mass, percent cover of grass, heath, bare ground, distance to the ocean, and woody stem count). Isopod assemblage varied widely within treatment groups with standard deviations being greater than the means in all three treatment types. Sites treated by mowing appear to have significantly higher levels of isopods than control sites or those treated by burning. 
 
+![iso2](/img/iso2.jpg)
 
 A non‐parametric Kruskal‐Wallis test did not indicate a significant relationship between isopod assemblage and any one of the management types (Χ2=1.22, df=2, p=0.54). The null hypothesis that there was no relationship between burning and mowing management and isopod could not be rejected based on the data collected.
 

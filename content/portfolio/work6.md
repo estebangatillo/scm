@@ -1,31 +1,16 @@
 ---
 date: "2016-11-05T19:56:17+05:30"
 draft: false
-image: ""
+image: 
 showonlyimage: false
-title: Name of the work 6
+title: Habitat Modeling in Mt. Hood National Forest
 weight: 6
 ---
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
-<!--more-->
+I've been working with the Mapping Action Collective (MAC) and Bark to determine the best places to release beavers in the Mt. Hood National Forest. Beavers provide incredible ecological benefits. Due to habitat disconnectivity the ability for beavers to migrate naturally into and around Mt. Hood may be compromised. <!--more-->
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+We worked with Bark to find the best places to release beavers within the national forest boundary. By combining hydrology, geology and terrain characteristics we hope to locate the best beaver homes around Mt. Hood!
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+This is an ongoing project. Check back for more.
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
-
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-## Header Level 2
-
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
-
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+![mthood](img/mthood.jpg)
