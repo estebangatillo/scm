@@ -3,29 +3,35 @@ date: "2016-11-05T19:50:47+05:30"
 draft: false
 image: ""
 showonlyimage: false
-title: Item without image
+title: Isopod assemblage in response to management techniques and environmental variables
+on Nantucket Island
 weight: 4
 ---
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
-<!--more-->
+**Isopod assemblage in response to management techniques and environmental variables
+on Nantucket Island**
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+Abstract:
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+The sandplain grassland and heathland of the coastal Northeast are part of a rare and
+protected habitat type. Many species of plants, birds, and insects rely on these remaining
+sandplain habitats. Research on the role of soil invertebrates is important in altered grassland ecosystems because of their role in decomposition processes and potential assistance in restoration of
+degraded lands. Terrestrial isopods are arthropods (class: Crustacea) that live in moist humid environments in soil and leaf litter. Isopods act as bioindicators for habitat quality of grassland. Invertebrate responses to burning and mowing management activities in grasslands have been reported in several studies. These different management techniques can be used to change the microclimates of isopod habitats. We tested the hypothesis that isopod assemblage in areas managed with burning and mowing would be significantly different from areas with no treatment. Then we looked at the impact that plant litter, percent ground cover (grass, heath, and bare ground), distance to ocean, and woody stem count had on isopod assemblage. We used a nested design with management sites, plots, transects, and pitfall traps to investigate the effects of management treatment on isopod assemblage. 
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+![iso1](/img/iso1.jpg)
 
-## Header Level 2
+A linear model was generated to predict pooled isopod assemblage across sites based on six predictor variables (dry litter mass, percent cover of grass, heath, bare ground, distance to the ocean, and woody stem count). Isopod assemblage varied widely within treatment groups with standard deviations being greater than the means in all three treatment types. Sites treated by mowing appear to have significantly higher levels of isopods than control sites or those treated by burning. 
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+![iso2](img/iso2.jpg)
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
+A non‐parametric Kruskal‐Wallis test did not indicate a significant relationship between isopod assemblage and any one of the management types (Χ2=1.22, df=2, p=0.54). The null hypothesis that there was no relationship between burning and mowing management and isopod could not be rejected based on the data collected.
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
 
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+> Leaf litter was the found to be of second highest importance after woody stem count. Woody stems were mainly represented by living black huckleberry and some bayberry. Understanding the woody stem/isopod assemblage relationship is a key to analyzing isopod populations. Other studies have highlighted the importance of habitat structure, including connective landscape properties and variations in fauna and soil types, on isopod population dynamics.
+
+
+The negative relationship between bare ground and isopod assemblage further emphasizes the impact of vegetation and subsequent ground litter on Nantucket isopod assemblage. Maintaining a naturally decomposing ecosystem with high flora richness and scattered vegetation diversity will most benefit isopod assemblage in this ecosystem.
+
+(Read the whole paper here)[http://web.pdx.edu/~scm6/Isopod_Magic.pdf].
+
