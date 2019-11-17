@@ -3,7 +3,7 @@ date: "2016-11-05T19:50:47+05:30"
 draft: false
 image: ""
 showonlyimage: false
-title: Isopod assemblage in response to management techniques and environmental variables on Nantucket Island
+title: Isopod Assemblage on Nantucket Island
 weight: 4
 ---
 
@@ -30,5 +30,5 @@ A non‐parametric Kruskal‐Wallis test did not indicate a significant relation
 
 The negative relationship between bare ground and isopod assemblage further emphasizes the impact of vegetation and subsequent ground litter on Nantucket isopod assemblage. Maintaining a naturally decomposing ecosystem with high flora richness and scattered vegetation diversity will most benefit isopod assemblage in this ecosystem.
 
-(Read the whole paper here)[http://web.pdx.edu/~scm6/Isopod_Magic.pdf].
+<!--more--> [Read the whole paper here](http://web.pdx.edu/~scm6/Isopod_Magic.pdf)
 
