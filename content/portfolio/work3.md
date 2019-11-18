@@ -3,7 +3,7 @@ date: "2016-11-05T19:44:32+05:30"
 draft: false
 image: img/westlinn.jpg
 showonlyimage: false
-title: West Linn Parks & Resources Map
+title: West Linn Parks & Rec Resources Map
 weight: 2
 ---
 
