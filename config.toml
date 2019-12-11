@@ -14,7 +14,7 @@ googleAnalytics = ""
   description = "Home for a scientist. Codename: Steven."
   copyright = "&copy;2019 Steven Murschel"
   sidebarAbout = [
-    "Environmental scientist specializing in urban, wetland and riparian ecology.",
+    "Environmental scientist specializing in applying GIS data analysis to the field(s) of urban, wetland, and riparian ecology, natural resources, and climate adaptation/resilience so our communities can work collaboratively with ecosystems.",
     "Originally from Lake Erie, currently based in Portland, Oregon."
   ]
   # Contact page
@@ -59,7 +59,7 @@ googleAnalytics = ""
   googleplus    = "https://mashable.com/2017/01/18/who-is-using-google-plus-anyway/"
   email         = "stevenmurschel@gmail.com"
   twitter       = "https://twitter.com/KHayhoe"
-  linkedin      = "https://www.linkedin.com/in/sarahcooper"
+  linkedin      = "https://www.linkedin.com/in/stevenmurschel/"
   stackoverflow = "https://stackoverflow.com/users/6736902/philiporlando"
   instagram     = "https://www.instagram.com/remyofalltrades/?hl=en"
   github        = "https://github.com/wesbos/dad-jokes"
