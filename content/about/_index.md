@@ -15,5 +15,5 @@ Masters of Environmental Management at Portland State
 Three years of aimless wa/ondering at University of Oregon - a most valuable lesson in the field(s) of philosophy, art history, Art, ultimate frisbee, astronomy, pizza-making and literature.
 
 
-![steven_screen](/img/steven_screen.jpg)
+![steven_screen](/img/steven6.jpg)
 I took this picture in my computer screen in reverse selfie mode because the camera on the back side of my phone is broken. My computer sceen needs....cleaned.
