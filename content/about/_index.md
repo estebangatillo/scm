@@ -14,7 +14,7 @@ Masters of Environmental Management at Portland State.
 
 Bachelors of Science in Environmental Science (also at Portland State)
 
-Three years of aimless wa/ondering at University of Oregon - a most valuable lesson in the field(s) of philosophy, art history, Art, ultimate frisbee, astronomy, pizza-making and literature.
+Three years of dedicated wa/ondering at University of Oregon - a most valuable lesson in the field(s) of philosophy, art history, art, ultimate frisbee, astronomy, pizza-making, and literature.
 
 
 ![steven_screen](/img/steven7.jpg)
