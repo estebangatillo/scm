@@ -1,0 +1,11 @@
+- name: "Jane Doe"
+  bio: "Specialist in Climate Policy"
+  lat: 45.5155
+  lng: -122.6793
+  link: "https://example.com/jane"
+
+- name: "John Smith"
+  bio: "GIS & Mapping Expert"
+  lat: 45.5231
+  lng: -122.6765
+  link: "https://example.com/john"

@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+</head>
+<body>
+
+<div class="container">
+    <div class="profiles">
+        <h2>Our Experts</h2>
+        <div class="profile" data-lat="45.5155" data-lng="-122.6793">
+            <h3>Jane Doe</h3>
+            <p>Specialist in Climate Policy</p>
+            <a href="https://example.com/jane" target="_blank">More Info</a>
+        </div>
+        <div class="profile" data-lat="45.5231" data-lng="-122.6765">
+            <h3>John Smith</h3>
+            <p>GIS & Mapping Expert</p>
+            <a href="https://example.com/john" target="_blank">More Info</a>
+        </div>
+    </div>
+
+    <div id="map"></div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
+
+
+
+{{ define "main" }}
+<div class="container">
+    <div class="profiles">
+        <h2>Our Experts</h2>
+        {{ range .Site.Data.people }}
+        <div class="profile" data-lat="{{ .lat }}" data-lng="{{ .lng }}">
+            <h3>{{ .name }}</h3>
+            <p>{{ .bio }}</p>
+            <a href="{{ .link }}" target="_blank">More Info</a>
+        </div>
+        {{ end }}
+    </div>
+    <div id="map"></div>
+</div>
+<script src="/js/script.js"></script>
+{{ end }}
