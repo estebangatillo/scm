@@ -7,7 +7,7 @@ title: Spatial Autocorrelation and Leaflet Tutorial
 weight: 0
 ---
 
-This is a demonstration about how to use leaflet. In the demonstation, I add local analysis to leaflet to show how visual representations explain real-world issues.<!--more--> The demonstration is broken into three parts:
+This is a demonstration about how to use leaflet. In the demonstration, I add local analysis to leaflet to show how visual representations explain real-world issues.<!--more--> The demonstration is broken into three parts:
 
 1. Simple demonstration about how to use leaflet
 2. Creating Local Getis-Ord statistic and adding it to leaflet

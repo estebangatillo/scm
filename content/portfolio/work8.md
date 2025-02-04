@@ -1,31 +1,45 @@
 ---
-date: "2016-11-05T19:59:22+05:30"
+date: "2024-02-05T19:59:22+05:30"
 draft: true
 image: img/portfolio/ipad-air-2.jpg
 showonlyimage: false
-title: Name of the work 8
-weight: 8
+title: Portland Alternative Therapy Map
+weight: 7
 ---
 
-Fifth abundantly made Give sixth hath. Cattle creature i be don't them.
-<!--more-->
+# Portland Alternative Therapy Network Map
 
-Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
 
-A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+library(pacman)
+p_load(tidyverse, ggmap, leaflet, readr, sf, htmlwidgets, googlesheets4)
 
-1. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-2. Aliquam tincidunt mauris eu risus.
+sheet_url <- "https://docs.google.com/spreadsheets/d/1BXvZrboy0PuWrDN4auxZoBsLrG9f1ONtd2-UhzMLPlw/edit?usp=sharing"
+data <- read_sheet(sheet_url)
 
-> The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
 
-## Header Level 2
+# get the data...
+# pat_add <- read_csv("data/alt_therapy_database.csv")
 
-Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.
+# convert to spatial object
+pat_sf <- st_as_sf(data, coords = c("lon", "lat"))
+  
+# Create a popup
+pat_pop <- paste0(
+  "<b>Name of Practice: </b>", pat_sf$`name of practice`, "<br>",
+  "<b>Address: </b>", pat_sf$address, "<br>",
+  "<b>Phone: </b>", pat_sf$`phone number`, "<br>",
+  "<b>Website: </b>", pat_sf$website
+)
+  
+m <- leaflet() %>% 
+  addTiles() %>% 
+  addCircleMarkers( # this will change how fire stations are represented on our map
+    data = pat_sf,
+    radius = 10, # Circe size
+    color = 'darkgreen', # Line color
+    fillColor = 'lightgreen', 
+    weight = 1, # Thickness of the line
+    fillOpacity = 0.9, # how transparent the fire stations are (between 0 and 1)
+    popup = pat_pop) # This creates informational "popup" for our fire stations. It is pulled from the layer attributes.
 
-The Big Oxmox advised her not to do so, because there were thousands of bad Commas, wild Question Marks and devious Semikoli, but the Little Blind Text didn't listen. She packed her seven versalia, put her initial into the belt and made herself on the way.
-
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-
-When she reached the first hills of the Italic Mountains, she had a last view back on the skyline of her hometown Bookmarksgrove, the headline of Alphabet Village and the subline of her own road, the Line Lane. Pityful a rethoric question ran over her cheek, then  
+m
