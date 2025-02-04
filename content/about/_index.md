@@ -17,4 +17,4 @@ Bachelors of Science in Environmental Science (also at Portland State)
 Three years of dedicated wa/ondering at University of Oregon - a most valuable lesson in the field(s) of philosophy, art history, art, ultimate frisbee, astronomy, pizza-making, and literature.
 
 
-![steven_screen](/img/linkedinpic.PJG)
+![steven_screen](/img/linkedinpic.JPG)
