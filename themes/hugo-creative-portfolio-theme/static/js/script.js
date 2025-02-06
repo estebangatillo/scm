@@ -1,15 +1,20 @@
-var map = L.map('map').setView([45.5155, -122.6793], 12);
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png').addTo(map);
 
-document.querySelectorAll('.profile').forEach(profile => {
-    var lat = profile.getAttribute('data-lat');
-    var lng = profile.getAttribute('data-lng');
+document.addEventListener("DOMContentLoaded", function () {
+    var map = L.map('map').setView([45.5155, -122.6793], 12); // Adjust center
 
-    var marker = L.marker([lat, lng]).addTo(map)
-        .bindPopup(profile.querySelector('h3').textContent);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
 
-    profile.addEventListener('click', function() {
-        map.setView([lat, lng], 14);
-        marker.openPopup();
-    });
+    // Loop through the profiles and add markers
+    fetch('/data/people.json')
+        .then(response => response.json())
+        .then(data => {
+            data.forEach(person => {
+                L.marker([person.lat, person.lng])
+                    .addTo(map)
+                    .bindPopup(`<h3>${person.name}</h3><p>${person.bio}</p><a href="${person.link}" target="_blank">More Info</a>`);
+            });
+        })
+        .catch(error => console.error('Error loading map data:', error));
 });
